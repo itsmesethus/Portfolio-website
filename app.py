@@ -424,7 +424,7 @@ elif st.session_state.section == 'PROJECTS':
 
                 st.markdown("### POWER BI DASHBOARD : COGNIZANT GALA GROCERY STORE")
                 st.components.v1.html("""
-                <iframe title="COGNIZANT DASHBOARD" src="https://app.powerbi.com/view?r=eyJrIjoiNTRmMzdlYWYtNTY1ZS00ODNlLThkYjgtMWQzYmFkYTdhZDc1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" style="width: 100%; height: 1400px;" frameborder="0" allowFullScreen="true"></iframe> """, height=1400,)
+                <iframe title="COGNIZANT DASHBOARD" src="https://app.powerbi.com/view?r=eyJrIjoiNTRmMzdlYWYtNTY1ZS00ODNlLThkYjgtMWQzYmFkYTdhZDc1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" style="width: 100%; height: 900px;" frameborder="0" allowFullScreen="true"></iframe> """, height=900,)
                 st.write(' ')
                 st.write(' ')
                 st.markdown("### STREAMLIT APP: COGNIZANT GALA GROCERY STORE APP")
@@ -482,7 +482,7 @@ elif st.session_state.section == 'PROJECTS':
                 st.write(' ')
                 st.markdown("### POWER BI DASHBOARD: BCG - POWERCO OIL AND GAS CHURN DASHBOARD")
                 st.components.v1.html("""
-                <iframe title="BCG POWERCO OIL AND GAS CHURN DASHBOARD" src="https://app.powerbi.com/view?r=eyJrIjoiZGJjNzM4NzUtZTVhOS00MWNhLWJjOTYtYzIxN2UyNTc4ZTBiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" style="width: 100%; height: 1400px;" frameborder="0" allowFullScreen="true"></iframe>""", height=1400)
+                <iframe title="BCG POWERCO OIL AND GAS CHURN DASHBOARD" src="https://app.powerbi.com/view?r=eyJrIjoiZGJjNzM4NzUtZTVhOS00MWNhLWJjOTYtYzIxN2UyNTc4ZTBiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" style="width: 100%; height: 800px;" frameborder="0" allowFullScreen="true"></iframe>""", height=800)
                 st.write(' ')
 
 #app video
@@ -599,7 +599,7 @@ elif st.session_state.section == 'PROJECTS':
                 st.write(' ')
 
                 st.markdown("### POWER BI DASHBOARD: IMDB DASHBOARD")
-                st.components.v1.html("""<iframe title="IMDB DASHBOARD" src="https://app.powerbi.com/view?r=eyJrIjoiOGFiZjdlOTItZjZjMS00YzY1LWEwNzItNjNhMWQ3NzdhMDBlIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" style="width: 100%; height: 1800px;" frameborder="0" allowFullScreen="true"></iframe>""", height=1800)
+                st.components.v1.html("""<iframe title="IMDB DASHBOARD" src="https://app.powerbi.com/view?r=eyJrIjoiOGFiZjdlOTItZjZjMS00YzY1LWEwNzItNjNhMWQ3NzdhMDBlIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" style="width: 100%; height: 900px;" frameborder="0" allowFullScreen="true"></iframe>""", height=900)
                 st.write(' ')
                 st.write(' ')
                 p5_link ='https://github.com/itsmesethus/IMDB-MOVIE-POWER_BI-DASHBOARD-'
