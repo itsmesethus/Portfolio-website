@@ -681,32 +681,57 @@ elif st.session_state.section == 'PROJECTS':
 elif st.session_state.section == 'CERTIFICATIONS':
     st.write('')
     st.write("")
-    def load_cerf(folderpath):
-        images=[]
-        for filename in os.listdir(folderpath):
-            if filename.endswith(".jpg"):
-                images.append(os.path.join(folderpath,filename))
-        return images
+    # def load_cerf(folderpath):
+    #     images=[]
+    #     for filename in os.listdir(folderpath):
+    #         if filename.endswith(".jpg"):
+    #             images.append(os.path.join(folderpath,filename))
+    #     return images
 
-    folderpath='img certifi'
+    # folderpath='img certifi'
 
-    images=load_cerf(folderpath)
+    # images=load_cerf(folderpath)
 
-    col1,col2,col3= st.columns(3)
+    col1,col2,col3,col4= st.columns(4)
   
-    for i,image in enumerate(images):
-        with st.container(border=True):
-            if i<11:
+    with st.container(border=True):
                 with col1:
-                    st.image(image,use_column_width=True)
-            elif i>=11 and i<=20:
+                    st.image('img certifi/1.jpg',use_column_width=True,)
+                    st.image('img certifi/1.1.jpg',use_column_width=True,)
+                    st.image('img certifi/1.2.jpg',use_column_width=True,)
+                    st.image('img certifi/1.3.jpg',use_column_width=True,)
+                    st.image('img certifi/1.4.jpg',use_column_width=True,)
+                    st.image('img certifi/1.5.jpg',use_column_width=True,)
+                    st.image('img certifi/1.6.jpg',use_column_width=True,)
+                    st.image('img certifi/1.7.jpg',use_column_width=True,)
                 with col2:
-                    st.image(image,use_column_width=True)
-            else:
+                    st.image('img certifi/1.jpg',use_column_width=True,)
+                    st.image('img certifi/1.1.jpg',use_column_width=True,)
+                    st.image('img certifi/1.2.jpg',use_column_width=True,)
+                    st.image('img certifi/1.3.jpg',use_column_width=True,)
+                    st.image('img certifi/1.4.jpg',use_column_width=True,)
+                    st.image('img certifi/1.5.jpg',use_column_width=True,)
+                    st.image('img certifi/1.6.jpg',use_column_width=True,)
+                    st.image('img certifi/1.7.jpg',use_column_width=True,)
                 with col3:
-                    st.image(image,use_column_width=True)
-
-
+                    st.image('img certifi/3.jpg',use_column_width=True,)
+                    st.image('img certifi/3.1.jpg',use_column_width=True,)
+                    st.image('img certifi/3.2.jpg',use_column_width=True,)
+                    st.image('img certifi/3.3.jpg',use_column_width=True,)
+                    st.image('img certifi/3.4.jpg',use_column_width=True,)
+                    st.image('img certifi/3.5.jpg',use_column_width=True,)
+                    st.image('img certifi/3.6.jpg',use_column_width=True,)
+                    st.image('img certifi/3.7.jpg',use_column_width=True,)
+                with col4:
+                    st.image('img certifi/4.jpg',use_column_width=True,)
+                    st.image('img certifi/4.1.jpg',use_column_width=True,)
+                    st.image('img certifi/4.2.jpg',use_column_width=True,)
+                    st.image('img certifi/4.3.jpg',use_column_width=True,)
+                    st.image('img certifi/4.4.jpg',use_column_width=True,)
+                    st.image('img certifi/4.5.jpg',use_column_width=True,)
+                    st.image('img certifi/4.6.jpg',use_column_width=True,)
+                    st.image('img certifi/4.7.jpg',use_column_width=True,)
+                    st.image('img certifi/4.8.jpg',use_column_width=True,)
 
 
 
