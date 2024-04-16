@@ -93,8 +93,8 @@ if st.session_state.section == 'ABOUT':
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
-                    width: 500px;  /* Set the width of the image */
-                    height: 400px; /* Set the height of the image */
+                    width: 300px;  /* Set the width of the image */
+                    height: 300px; /* Set the height of the image */
                     border: 7px solid #0C0C0C;s
                     }
                     </style>
