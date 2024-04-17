@@ -8,7 +8,7 @@ import base64
 st.set_page_config(page_title='Sethu S Portfolio Website ', layout='wide',initial_sidebar_state='expanded')
 
 # Header
-st.markdown("<h1 style='text-align: center; font-weight: bold;font-size: 3.2em;'>Welcome To My Data Science Portfolio Website!</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-weight: bold;font-size: 2.9em;'>Welcome To My Data Science Portfolio Website!</h1>", unsafe_allow_html=True)
 st.write('')
 st.write('')
     
