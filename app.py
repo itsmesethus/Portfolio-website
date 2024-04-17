@@ -64,7 +64,7 @@ elif choice_contact:
 
 with st.container(border=True):
         st.write(' ')
-        st.markdown(f"<h1 style='text-align: center; font-weight: bold; font-size: 3em;'>{st.session_state.section}</h1>", unsafe_allow_html=True)
+        st.markdown(f"<h2 style='text-align: center; font-weight: bold; font-size: 3em;'>{st.session_state.section}</h2>", unsafe_allow_html=True)
         st.write(' ')
     
 st.write(' ')
