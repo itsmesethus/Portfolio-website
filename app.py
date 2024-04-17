@@ -126,10 +126,18 @@ if st.session_state.section == 'ABOUT':
     with st.container(border=True):
         st.write("")
         st.markdown("""<div style='text-align: justify; font-size: 1.5em;'>  
-                    Hello and welcome! I'm Sethu S, a passionate Data Scientist and Statistician with 1 year of experience at Evoscien. I specialize in Statistical Data Analysis, Analytics, Machine Learning, and Data Modeling.  I earned my Master's degree in Statistics from Bharathiar University, where I honed my skills in Python, R, and SQL. I am fervently committed to translating complex data into actionable insights. With a robust academic foundation complemented by hands-on industry experience, I specialize in a wide range of data science disciplines, expertise in cleaning and preparing data for analysis, ensuring accuracy and reliability in subsequent modeling, proficient in creating insightful and interactive visualizations using tools like Matplotlib, Seaborn, Plotly, and Microsoft Power BI to effectively communicate complex data patterns and trends, skilled in uncovering hidden insights, correlations, and patterns within data through comprehensive EDA techniques, experienced in analyzing time-dependent data and developing accurate forecasting models to predict future trends and behaviors, apable of extracting and selecting relevant features to improve model performance and predictive accuracy, and have ability to designing and conducting experiments(A/B Testing) to evaluate the effectiveness of different strategies or models.</div>""",unsafe_allow_html=True)
+                    Hi, I'm Sethu S, a Data Scientist with a year of experience at Evoscien. 
+I hold a Master's in Statistics from Bharathiar University, skilled in Python, R, and SQL. 
+Passionate about transforming complex data into actionable insights, 
+I excel in Data Cleaning, Statistical & Ml Modeling, Time Series Analysis and  Data Visualization using Matplotlib, Seaborn, Plotly, and Power BI. 
+Eager to learn and grow, I stay updated with the latest data science trends through certifications and courses. 
+My goal? To empower businesses with data-driven decisions and optimize processes. 
+Let's collaborate and unlock the potential of your data!.</div>""",unsafe_allow_html=True)
         st.write(' ')
-        st.markdown("""<div style='text-align: justify; font-size: 1.5em;'>  I'm always eager to learn and stay updated with the latest trends in data science. I keep expanding my skills through certifications and online courses to make sure I'm using the latest and greatest tools and techniques.
-            My goal is simple: to use data science to help businesses make smarter decisions, optimize their processes, and ultimately, achieve success. I'm super excited about collaborating with forward-thinking individuals and tackling complex challenges with data-driven solutions. If you're interested in leveraging the power of data to achieve your goals, I'd love to connect and explore how we can work together!</div>""",unsafe_allow_html=True)
+        #st.markdown("""<div style='text-align: justify; font-size: 1.5em;'>  I'm always eager to learn and stay updated with the latest trends in data science. I keep expanding my skills through certifications and online courses to make sure I'm using the latest and greatest tools and techniques.
+           # My goal is simple: to use data science to help businesses make smarter decisions, optimize their processes, and ultimately, achieve success. I'm super excited about collaborating with forward-thinking individuals and tackling complex challenges with data-driven solutions. 
+        If you're interested in leveraging the power of 
+        data to achieve your goals, I'd love to connect and explore how we can work together!</div>""",unsafe_allow_html=True)
         st.write(" ")
         st.write(' ')
 
@@ -314,10 +322,9 @@ elif st.session_state.section == 'SKILLS':
         with st.container(border=True):
             st.write(' ')
             #st.write(' ')
-            st.write("""<div style= 'text-align: left;font-size: 1.5em'>* Data Cleaning | Data Analytics | Data Analysis | Exploratory Data Analysis (EDA)
-        | Data Mining | Feature Engineering | Feature Selection Techniques | Data Visualization
-        |  Outlier Detection | Correlation Analysis | A/B Testing | Model evaluation
-        |  Model selection | Model interpretation | Model deployment.</div>""",unsafe_allow_html=True)
+            st.write("""<div style= 'text-align: left;font-size: 1.5em'>* Data Cleaning | Data Analytics | Data Analysis | Exploratory Data Analysis (EDA) | Data Mining | Feature Engineering 
+            | Feature Selection Techniques | Data Visualization | Outlier Detection | Correlation Analysis | A/B Testing | Ad Hoc Analysis | Model Evaluation | Model Deployment | Advanced Analytics | Hyperparameter Tuning
+        |  Model selection | Model interpretation.</div>""",unsafe_allow_html=True)
             st.write(' ')
             st.write('')
     st.write(' ')
