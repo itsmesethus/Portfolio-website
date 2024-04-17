@@ -19,9 +19,9 @@ st.markdown("""
         width: 100%;
         text-align: left;
         font-weight: bold;
-        font-size: 65em; 
-        height: 80px; /* Increase the button height */
-        line-height: 80px; /* Center the text vertically */
+        font-size: 40em; 
+        height: 40px; /* Increase the button height */
+        line-height: 40px; /* Center the text vertically */
     }
     .centered {
         text-align: center;
@@ -93,8 +93,8 @@ if st.session_state.section == 'ABOUT':
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
-                    width: 300px;  /* Set the width of the image */
-                    height: 300px; /* Set the height of the image */
+                    width: 600px;  /* Set the width of the image */
+                    height: 600px; /* Set the height of the image */
                     border: 7px solid #0C0C0C;s
                     }
                     </style>
@@ -132,12 +132,12 @@ Passionate about transforming complex data into actionable insights,
 I excel in Data Cleaning, Statistical & Ml Modeling, Time Series Analysis and  Data Visualization using Matplotlib, Seaborn, Plotly, and Power BI. 
 Eager to learn and grow, I stay updated with the latest data science trends through certifications and courses. 
 My goal? To empower businesses with data-driven decisions and optimize processes. 
-Let's collaborate and unlock the potential of your data!.</div>""",unsafe_allow_html=True)
+Let's collaborate and unlock the potential of your data!</div>""",unsafe_allow_html=True)
         st.write(' ')
         #st.markdown("""<div style='text-align: justify; font-size: 1.5em;'>  I'm always eager to learn and stay updated with the latest trends in data science. I keep expanding my skills through certifications and online courses to make sure I'm using the latest and greatest tools and techniques.
            # My goal is simple: to use data science to help businesses make smarter decisions, optimize their processes, and ultimately, achieve success. I'm super excited about collaborating with forward-thinking individuals and tackling complex challenges with data-driven solutions. 
-        If you're interested in leveraging the power of 
-        data to achieve your goals, I'd love to connect and explore how we can work together!</div>""",unsafe_allow_html=True)
+        #If you're interested in leveraging the power of 
+        #data to achieve your goals, I'd love to connect and explore how we can work together!</div>""",unsafe_allow_html=True)
         st.write(" ")
         st.write(' ')
 
