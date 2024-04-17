@@ -126,7 +126,7 @@ if st.session_state.section == 'ABOUT':
     with st.container(border=True):
         st.write("")
         st.markdown("""<div style='text-align: justify; font-size: 1.5em;'>  
-                    Hi, I'm Sethu S, a Statistician/Data Scientist with a year of experience at Evoscien. 
+                    Hi, I'm Sethu S, a Statistician with a year of experience at Evoscien. 
 I hold a Master's in Statistics from Bharathiar University, skilled in Python, R, and SQL. 
 Passionate about transforming complex data into actionable insights, 
 I excel in Data Cleaning, Statistical & Ml Modeling, Time Series Analysis and  Data Visualization using Matplotlib, Seaborn, Plotly, and Power BI. 
