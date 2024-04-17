@@ -176,7 +176,7 @@ elif st.session_state.section == 'EXPERIENCE':
                 st.write('')
                 st.markdown("""<div style='text-align: justify; font-size: 1.5em;'> • Conducted appropriate statistical tests (t-tests, ANOVA, chi-square tests, and non-parametric tests) to analyze data and identified meaningful patterns, trends, and relationships with a 95% confidence interval.</div>""",unsafe_allow_html=True)
                 st.write('')
-                st.markdown("""<div style='text-align: justify; font-size: 1.5em;'> • Assisted 3 departments (Entomology, IT, and Engineering) with data-driven problem-solving, resulting in improved operational efficiency by 15%.</div>""",unsafe_allow_html=True)
+                st.markdown("""<div style='text-align: justify; font-size: 1.5em;'> • Collaborated with Entomology and Engineering with data-driven approaches, resulting in improved operational efficiency by 15%.</div>""",unsafe_allow_html=True)
                 st.write('')
                 st.markdown("""<div style='text-align: justify; font-size: 1.5em;'> • Created 20+ detailed reports and interactive data visualizations, effectively communicating analytical findings to both technical and non-technical audiences.</div>""",unsafe_allow_html=True)
                 st.write('')
