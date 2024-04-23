@@ -1,4 +1,4 @@
-Please find my live streamlit portfolio link here!
+Please find my live links here!
 ### About Me
 
 I'm Sethu, a Data Scientist passionate about ML, DL, Time Serues Analysis and data analysis.
